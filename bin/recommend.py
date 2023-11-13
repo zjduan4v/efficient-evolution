@@ -6,7 +6,7 @@ def parse_args():
     parser = argparse.ArgumentParser(
         description='Recommend substitutions to a wildtype sequence'
     )
-    parser.add_argument('sequence', type=str,
+    parser.add_argument('EVQLVESGGGSVQAGGSLRLSCAASGFTFSNNRMGWVRQAPGKGLEWVSDINSSGGVTEYADSVKGRFTISRDNAKNTLYLQLNSLKIEDTAIYYCVYYSYLMRLRPGQGTQVTVSS', type=str,
                         help='Wildtype sequence')
     parser.add_argument(
         '--model-names',
